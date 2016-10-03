@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>Jokers Wild</title>
+        <link rel="stylesheet" href="JokersWild.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <meta name="viewport" content="width=device-height,user-scalable=false" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="format-detection" content="telephone=no" />        
+    </head>
+    
+<body>
+
+<div id="wrapper">
+<!-- Top Info Bar ------------------------------------------------------------ -->
+  <div id="topInfo">
+    <div class="menu"></div>
+          
+          <span class="amount1" id="money_amount">$0,000,000.00</span>
+            
+       
+          <span class="amount2" id="round_amount">000000000</span>            
+            
+        </div> 
+<!-- Paytable ------------------------------------------------------------ -->           
+	<div id="payTable">
+		<div id="winHighlight" class="hide"></div><div class="suit">Royal Flush</div><div class="payout">0000</div>
+		<div id="winHighlight" class="hide"></div><div class="suit">Five of a Kind</div><div class="payout">000</div>
+		<div id="winHighlight" class="hide"></div><div class="suit">Jokers Royal Flush</div><div class="payout">000</div>
+		<div id="winHighlight" class="hide"></div><div class="suit">Straight Flush</div><div class="payout">00</div>
+		<div id="winHighlight" class="hide"></div><div class="suit">Four of a Kind</div><div class="payout">00</div>
+	</div>
+
+<div id="payTable2">
+		<div id="winHighlight" class="hide"></div><div class="suit2">Full House</div><div class="payout">00</div>
+		<div id="winHighlight" class="hide"></div><div class="suit2">Flush</div><div class="payout">00</div>
+		<div id="winHighlight" class="hide"></div><div class="suit2">Straight</div><div class="payout">00</div>
+		<div id="winHighlight" class="hide"></div><div class="suit2">Three of a kind</div><div class="payout">0</div>
+		<div id="winHighlight" class="hide"></div><div class="suit2">Two Pair</div><div class="payout">0</div>
+</div>
+
+<div id="logo"></div>
+
+<div id="cards">
+<!-- Player Section ------------------------------------------------------------> 
+            <div id="player">
+                     
+                <div class="cardContainer" >
+                
+                	<div class="card"><div id="hold" class="show"></div><img id="player_card1" src="images/cards/5d.png" width="73" height="98"></div>
+                	<div class="card"><div id="hold" class="show"></div><img id="player_card2" src="images/cards/qc.png" width="73" height="98"></div>
+                	<div class="card"><div id="hold" class="show"></div><img id="player_card3" src="images/cards/qd.png" width="73" height="98"></div>
+                	<div class="card"><div id="hold" class="show"></div><img id="player_card4" src="images/cards/10d.png" width="73" height="98"></div>
+                	<div class="card"><div id="hold" class="show"></div><img id="player_card5" src="images/cards/10c.png" width="73" height="98"></div> 
+                </div>
+
+            </div>
+                       
+</div>
+       
+        
+<!-- Action Buttons ---------------------------------------------------------- -->
+  <!-- Chip Amounts --->
+        	 <button id="hide" class="chip1 "></button>
+    		<button id="Chip2" class="chip2 "></button>
+            <button id="hide" class="chip3 "></button>
+            <button id="hide" class="chip4 "></button>
+
+            <div class="multiply"></div>
+            <button id="hide" class="coin1"></button>
+            <button id="hide" class="coin2"></button>
+            <button id="hide" class="coin3"></button>
+            <button id="hide" class="coin4"></button>
+            <button id="coin5" class="coin5"></button>
+             <div class="equals"></div>
+            <div class="chip100"><span class="total" id="paid_amount">$01.25</span></div>
+                
+<div id="footer">
+</div>
+          <button id="Deal" class="deal"></button>
+  <div id="borderLeft"></div>
+<div id="borderRight"></div>   
+
+
+</div>
+    
+</body>
+</html>
